@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
-import 'package:flutter_crud_cloudstore/presentation/screens/home_page.dart';
+import 'package:flutter_crud_cloudstore/presentation/screens/database/home_database.dart';
+import 'package:flutter_crud_cloudstore/presentation/screens/cloudstore/home_page.dart';
 
 Future main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Firebase_CRUD(),
+      home: FirebaseDBHome(),
     );
   }
 }
