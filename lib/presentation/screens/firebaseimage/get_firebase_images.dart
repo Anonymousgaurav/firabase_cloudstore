@@ -31,7 +31,7 @@ class _SecondPageState extends State<SecondPage> {
     return MaterialApp(
         home: Scaffold(
           appBar: AppBar(
-            title: Text("Second Page"),
+            title: Text("Get Images From Firebase"),
             centerTitle: true,
           ),
           body: Container(
